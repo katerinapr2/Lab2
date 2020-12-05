@@ -5,15 +5,15 @@
 #### ~~~ Αναλυτική Αναφορά ~~~   
 ***Βήμα 1ο***  
 _2._  Σχετικά με το _401.bzip2_ :  
-* Χρόνος εκτέλεσης = 
-* CPI =  
+* Χρόνος εκτέλεσης = 0.083847  
+* CPI = 1.676947  
 * Συνολικά miss rate της L1 Data Cache =  
 Συνολικά miss rate της L1 Instruction Cache =    
 Συνολικά miss rate της L2 Cache =  
 
 Σχετικά με το _429.mcf_ :  
-* Χρόνος εκτέλεσης =  
-* CPI =    
+* Χρόνος εκτέλεσης = 0.055471
+* CPI = 1.109419  
 * Συνολικά miss rate της L1 Data Cache =  
 Συνολικά miss rate της L1 Instruction Cache =    
 Συνολικά miss rate της L2 Cache =   
