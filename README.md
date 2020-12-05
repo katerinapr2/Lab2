@@ -30,7 +30,8 @@ _2._  Σχετικά με το _401.bzip2_ :
 * CPI =   
 * Συνολικά miss rate της L1 Data Cache =    
 Συνολικά miss rate της L1 Instruction Cache =    
-Συνολικά miss rate της L2 Cache = 
+Συνολικά miss rate της L2 Cache =   
+
 Σχετικά με το _470.lbm_ :   
 * Χρόνος εκτέλεσης =  
 * CPI =    
