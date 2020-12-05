@@ -3,9 +3,20 @@
 #### Παπαδόπουλος Γρηγόρης - 9441
 #### Πρόκου Κατερίνα - 9476
 #### ~~~ Αναλυτική Αναφορά ~~~   
-***Βήμα 1ο***
-_2._  Σχετικά με το _401.bzip2_ :
+***Βήμα 1ο***  
+_2._  Σχετικά με το _401.bzip2_ :  
+* Χρόνος εκτέλεσης = 
+* CPI =  
+* Συνολικά miss rate της L1 Data Cache =  
+Συνολικά miss rate της L1 Instruction Cache =    
+Συνολικά miss rate της L2 Cache =  
+
 Σχετικά με το _429.mcf_ :  
+* Χρόνος εκτέλεσης =  
+* CPI =    
+* Συνολικά miss rate της L1 Data Cache =  
+Συνολικά miss rate της L1 Instruction Cache =    
+Συνολικά miss rate της L2 Cache =   
 
 Σχετικά με το _456.hmmer_ :  
 * Χρόνος εκτέλεσης = 0.059511  
@@ -15,4 +26,14 @@ _2._  Σχετικά με το _401.bzip2_ :
 Συνολικά miss rate της L2 Cache = 0.084864  
 
 Σχετικά με το _458.sjeng_ :  
-Σχετικά με το _470.lbm_ :  
+* Χρόνος εκτέλεσης =  
+* CPI =   
+* Συνολικά miss rate της L1 Data Cache =    
+Συνολικά miss rate της L1 Instruction Cache =    
+Συνολικά miss rate της L2 Cache = 
+Σχετικά με το _470.lbm_ :   
+* Χρόνος εκτέλεσης =  
+* CPI =    
+* Συνολικά miss rate της L1 Data Cache =    
+Συνολικά miss rate της L1 Instruction Cache =     
+Συνολικά miss rate της L2 Cache = 
