@@ -64,13 +64,21 @@ Default : [system.cpu_clk_domain] clock=500
 και [system.clk_domain] clock=1000 και στα δύο.  
 
 ***Βήμα 2ο***  
-***_1._***  
-Σχετικά με τις δοκιμές στο _401.bzip2_ :  
+***_1._***  Σχετικά με τις δοκιμές στο _401.bzip2_ :  
 ![bzip(cpi)](https://user-images.githubusercontent.com/58628111/101296299-4ce8b380-382b-11eb-9255-9e5f589ee774.png)  
 ![bzip(dcache)](https://user-images.githubusercontent.com/58628111/101296303-4fe3a400-382b-11eb-9621-d5ecf16438fb.png)  
 ![bzip(icache)](https://user-images.githubusercontent.com/58628111/101296304-5245fe00-382b-11eb-8566-3af4b4133942.png)  
 ![bzip-l2](https://user-images.githubusercontent.com/58628111/101296305-540fc180-382b-11eb-9eaf-ea6849039fc8.png)  
 
+Σχετικά με το _429.mcf_ :  
+
+Σχετικά με το _456.hmmer_ :   
+
+Σχετικά με το _458.sjeng_ :   
+![Lab2-specsjeng_cpi](https://user-images.githubusercontent.com/58628111/101296393-f29c2280-382b-11eb-9906-ffbb5c9fd0e5.png)  
+![Lab2-specsjeng_dcache](https://user-images.githubusercontent.com/58628111/101296395-f465e600-382b-11eb-9271-13fe021e720b.png)  
+![Lab2-specsjeng_icache](https://user-images.githubusercontent.com/58628111/101296397-f62fa980-382b-11eb-8cdd-fb1f50f887d1.png)  
+![Lab2-specsjeng_l2](https://user-images.githubusercontent.com/58628111/101296400-f92a9a00-382b-11eb-8e99-6c095ced9c7c.png)  
 
 Σχετικά με τις δοκιμές στο _470.lbm_ :  
 Αρχικά, παρατηρούμε πως η dcache παρουσιάζει μεγαλύτερο miss rate σε σχέση με αυτό της icache, οπότε αυξάνοντας το μέγεθος της από τα 32kB στα 128kB θα υπάρξει σίγουρα κάποια βελτίωση στο CPI. 
