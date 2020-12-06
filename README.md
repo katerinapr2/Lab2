@@ -46,4 +46,21 @@ _2._  Σχετικά με το _401.bzip2_ :
 * CPI = 3.495270   
 * Συνολικά miss rate της L1 Data Cache = 0.060972      
 Συνολικά miss rate της L1 Instruction Cache = 0.000095
-Συνολικά miss rate της L2 Cache = 0.99994
+Συνολικά miss rate της L2 Cache = 0.99994  
+
+![vima1](https://user-images.githubusercontent.com/58628111/101291402-2584ed00-3811-11eb-9a0d-cf72b45031dd.png)
+
+_3._ ΣΗΜΕΙΩΣΗ : Στο δικό μας μηχάνημα τα benchmarks χρησιμοποιούσαν default συχνότητα των 2GHz, οπότε για να παρατηρήσουμε το οποιοδήποτε scaling χρησιμοποιήσαμε συχνότητα 4GHz. Για το _401.bzip2_ :  
+* [system.cpu_clk_domain] clock=500  
+* [system.clk_domain] clock=1000  
+Παρατηρούμε 2 διαφορετικούς χρονισμούς ρολογιών. Ο 1ος εξ αυτών αναφέρεται στην συχνότητα της CPU αυτής καθ αυτής, δηλαδή την εκτέλεση των εντολών, ενώ ο 2ος λειτουργεί σαν συγχρονιστής.Εάν προστεθεί νέος επεξεργαστής στο σύστημα θα λειτουγεί και αυτός στην συχνότητα 2GHz όπως και ο αρχικός επεξεργαστής.Αυτό φαίνεται και από το entry στο αρχείο config.ini :  
+[system.cpu] clk_domain=system.cpu_clk_domain	 	
+Default : [system.cpu_clk_domain] clock=500  --->  sim_seconds:0.083654 / CPI:1.673085  
+4GHz : [system.cpu_clk_domain] clock=250  ------>  sim_seconds:0.045532 / CPI:1.821276  
+
+Στα ίδια συμπεράσματα καταλήξαμε τρέχοντας και το _456.hmmer_ με:  
+Default : [system.cpu_clk_domain] clock=500  
+4GHz : [system.cpu_clk_domain] clock=250  
+και [system.clk_domain] clock=1000 και στα δύο.  
+
+
