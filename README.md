@@ -73,7 +73,12 @@ Default : [system.cpu_clk_domain] clock=500
 
 ***Σχετικά με το _429.mcf_*** :  
 
-***Σχετικά με το _456.hmmer_*** : Πρόκειται για ένα benchmark, το οποίο αναζητά βάσεις δεδομένων γονιδιακής ακολουθίας
+***Σχετικά με το _456.hmmer_*** : Πρόκειται για ένα benchmark, το οποίο αναζητά βάσεις δεδομένων γονιδιακής ακολουθίας  
+![Lab2-spechmmer_cpi](https://user-images.githubusercontent.com/58628111/101347311-8ef91000-3892-11eb-815f-ad04d0145a8e.png)
+![Lab2-spechmmer_dcache](https://user-images.githubusercontent.com/58628111/101347318-90c2d380-3892-11eb-8626-c310a83c827b.png)
+![Lab2-spechmmer_icache](https://user-images.githubusercontent.com/58628111/101347325-94eef100-3892-11eb-9b22-683971168ed7.png)
+![Lab2-spechmmer_l2](https://user-images.githubusercontent.com/58628111/101347332-96b8b480-3892-11eb-9dfd-20ceb8f30d5e.png)
+
 
 ***Σχετικά με το _458.sjeng_*** : Αποτελεί benchmark που ειδικεύεται πάνω σε παρτίδες σκάκι.Φαίνεται λοιπόν ότι το κυρίαρχο χαρακτηριστικό του είναι η επεξεργασία δεδομένων ώστε να παρθεί η σωστή απόφαση.Γι αυτό το λόγο λειτουργήσαμε παρόμοια με το BZIP benchmark.
 ![Lab2-specsjeng_cpi](https://user-images.githubusercontent.com/58628111/101296393-f29c2280-382b-11eb-9906-ffbb5c9fd0e5.png)  
