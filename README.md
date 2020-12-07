@@ -48,7 +48,8 @@
 Συνολικά miss rate της L1 Instruction Cache = 0.000095
 Συνολικά miss rate της L2 Cache = 0.99994  
 
-![vima1](https://user-images.githubusercontent.com/58628111/101291402-2584ed00-3811-11eb-9a0d-cf72b45031dd.png)
+![Lab2](https://user-images.githubusercontent.com/58628111/101346360-1776b100-3891-11eb-8eb2-e904205d2ed0.png)  
+
 
 ***_3._*** ΣΗΜΕΙΩΣΗ : Στο δικό μας μηχάνημα τα benchmarks χρησιμοποιούσαν default συχνότητα των 2GHz, οπότε για να παρατηρήσουμε το οποιοδήποτε scaling χρησιμοποιήσαμε συχνότητα 4GHz. Για το _401.bzip2_ :  
 * [system.cpu_clk_domain] clock=500  
