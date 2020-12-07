@@ -96,7 +96,10 @@ Default : [system.cpu_clk_domain] clock=500
 ![Lab2-speclibm_cpi](https://user-images.githubusercontent.com/58628111/101345248-73403a80-388f-11eb-8fd6-e9bbd6e93ab1.png)  
 ![Lab2-speclibm_dcache](https://user-images.githubusercontent.com/58628111/101345257-7804ee80-388f-11eb-9be2-228e533e080e.png)  
 ![Lab2-speclibm_icache](https://user-images.githubusercontent.com/58628111/101345268-7a674880-388f-11eb-870e-795aa8b1fe55.png)  
-![Lab2-speclibm_l2](https://user-images.githubusercontent.com/58628111/101345293-805d2980-388f-11eb-8a50-6346adaa3a14.png)  
+![Lab2-speclibm_l2](https://user-images.githubusercontent.com/58628111/101345293-805d2980-388f-11eb-8a50-6346adaa3a14.png)   
+
+***Βήμα 3ο***  
+
  
 
 
