@@ -80,7 +80,12 @@ Default : [system.cpu_clk_domain] clock=500
 ![Lab2-specsjeng_icache](https://user-images.githubusercontent.com/58628111/101296397-f62fa980-382b-11eb-8cdd-fb1f50f887d1.png)  
 ![Lab2-specsjeng_l2](https://user-images.githubusercontent.com/58628111/101296400-f92a9a00-382b-11eb-8e99-6c095ced9c7c.png)  
 
-***Σχετικά με τις δοκιμές στο _470.lbm_*** : Υλοποιεί τη λεγόμενη «Lattice Μέθοδος Boltzmann» (LBM) για την προσομοίωση Ασυμπίεστων ρευστών σε 3D. Για τον λόγο αυτό, συν του ότι το miss rate της dcache είναι μεγαλύτερο από αυτό της icache, αυξάνουμε στο μέγιστο το μέγεθος της L1 dcache και στη συνέχεια της L1 icache, προκειμένουμε να δούμε τι αλλαγή θα προκύψει. Αυξάνουμε επίσης το μέγεθος της L2, το οποίο δεν προκάλεσε μεγάλη αλλαγή στο cpi σε αντίθεση με την αύξηση των associativities και του μεγέθους των cacheline, σταδιακά, που μεταφέρει τα δεδομένα από την κύρια μνήμη στις cache.
+***Σχετικά με τις δοκιμές στο _470.lbm_*** : Υλοποιεί τη λεγόμενη «Lattice Μέθοδος Boltzmann» (LBM) για την προσομοίωση Ασυμπίεστων ρευστών σε 3D. Για τον λόγο αυτό, συν του ότι το miss rate της dcache είναι μεγαλύτερο από αυτό της icache, αυξάνουμε στο μέγιστο το μέγεθος της L1 dcache και στη συνέχεια της L1 icache, προκειμένουμε να δούμε τι αλλαγή θα προκύψει. Αυξάνουμε επίσης το μέγεθος της L2, το οποίο δεν προκάλεσε μεγάλη αλλαγή στο cpi σε αντίθεση με την αύξηση των associativities και του μεγέθους των cacheline, σταδιακά, που μεταφέρει τα δεδομένα από την κύρια μνήμη στις cache.  
+![Lab2-speclibm_cpi](https://user-images.githubusercontent.com/58628111/101345248-73403a80-388f-11eb-8fd6-e9bbd6e93ab1.png)  
+![Lab2-speclibm_dcache](https://user-images.githubusercontent.com/58628111/101345257-7804ee80-388f-11eb-9be2-228e533e080e.png)  
+![Lab2-speclibm_icache](https://user-images.githubusercontent.com/58628111/101345268-7a674880-388f-11eb-870e-795aa8b1fe55.png)  
+![Lab2-speclibm_l2](https://user-images.githubusercontent.com/58628111/101345293-805d2980-388f-11eb-8a50-6346adaa3a14.png)  
+
 ***_2._***  
 
 
