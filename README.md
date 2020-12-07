@@ -71,7 +71,12 @@ Default : [system.cpu_clk_domain] clock=500
 ![bzip(icache)](https://user-images.githubusercontent.com/58628111/101296304-5245fe00-382b-11eb-8566-3af4b4133942.png)  
 ![bzip-l2](https://user-images.githubusercontent.com/58628111/101296305-540fc180-382b-11eb-9eaf-ea6849039fc8.png)  
 
-***Σχετικά με το _429.mcf_*** : Benchmark που εστιάζει σε προβλήματα προγραμματισμού (scheduling).Θεωρήσαμε ότι επωφελείται από αύξηση μεγέθους της L2, ωστόσο χωρίς ιδιαίτερο αποτέλεσμα.
+***Σχετικά με το _429.mcf_*** : Benchmark που εστιάζει σε προβλήματα προγραμματισμού (scheduling).Θεωρήσαμε ότι επωφελείται από αύξηση μεγέθους της L2, ωστόσο χωρίς ιδιαίτερο αποτέλεσμα.  
+![Lab2-specmcf_cpi](https://user-images.githubusercontent.com/58628111/101356573-f0c07680-38a0-11eb-8787-6ae4dd8b7d95.png)  
+![Lab2-specmcf_dcache](https://user-images.githubusercontent.com/58628111/101356581-f4ec9400-38a0-11eb-9742-906c4afa5da7.png)  
+![Lab2-specmcf_icache](https://user-images.githubusercontent.com/58628111/101356586-f74eee00-38a0-11eb-9623-7bd695619aa5.png)  
+![Lab2-specmcf_l2](https://user-images.githubusercontent.com/58628111/101356599-fc13a200-38a0-11eb-8d22-6d72c171bc2c.png)  
+
 
 ***Σχετικά με το _456.hmmer_*** : Κυριότερη χρησιμότητα του στο χώρο της βιολογίας και συγκεκριμένα στην ανάλυση του DNA.Αυτό σε συνδυασμό με τα υψηλά miss rate των L1 μνημών μας οδήγησε στην παράλληλη αύξηση των μεγεθών τους με μικρή βελτίωση.Αντίστοιχα σκεφτήκαμε και για την L2 με παρόμοια αποτελέσματα.Τέλος καταλήξαμε στην αύξηση του μεγέθους της cacheline που σε συνδυασμό με τις προηγούμενες αλλαγές επέφερε το μεγαλύτερο όφελος.Ωστόσο παρατηρήσαμε ότι το CPI βελτώνεται μέχρι μια συγκεκριμένη αύξηση μεγέθους cacheline. 
 ![Lab2-spechmmer_cpi](https://user-images.githubusercontent.com/58628111/101347311-8ef91000-3892-11eb-815f-ad04d0145a8e.png)
@@ -92,8 +97,7 @@ Default : [system.cpu_clk_domain] clock=500
 ![Lab2-speclibm_dcache](https://user-images.githubusercontent.com/58628111/101345257-7804ee80-388f-11eb-9be2-228e533e080e.png)  
 ![Lab2-speclibm_icache](https://user-images.githubusercontent.com/58628111/101345268-7a674880-388f-11eb-870e-795aa8b1fe55.png)  
 ![Lab2-speclibm_l2](https://user-images.githubusercontent.com/58628111/101345293-805d2980-388f-11eb-8a50-6346adaa3a14.png)  
-
-***_2._***  
+ 
 
 
 
