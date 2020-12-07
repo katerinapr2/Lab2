@@ -1,0 +1,8 @@
+Benchmarks	system.cpu.cpi	system.cpu.dcache.overall_miss_rate::total	system.cpu.icache.overall_miss_rate::total	system.l2.overall_miss_rate::total
+spechmmer_0	5.504815	0.055306	0.097094	0.897714
+spechmmer_1	5.495945	0.055306	0.096433	0.902056
+spechmmer_2	5.489166	0.051195	0.096561	0.925558
+spechmmer_3	5.489166	0.051195	0.096561	0.925558
+spechmmer_4	5.449949	0.050324	0.090999	0.968831
+spechmmer_5	3.659909	0.014553	0.026281	0.896040
+spechmmer_6	4.220033	0.011498	0.019698	0.833333
