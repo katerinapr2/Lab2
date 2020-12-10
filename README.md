@@ -85,9 +85,13 @@ Default : [system.cpu_clk_domain] clock=500
 ![Lab2-spechmmer_l2](https://user-images.githubusercontent.com/58628111/101347332-96b8b480-3892-11eb-9dfd-20ceb8f30d5e.png)   
 Με τα παρακάτω διαγράμματα μπορούμε να δούμε πιο συγκεκριμένα την επίδραση κάθε παραμέτρου στο cpi και τα misses του _456.hmmer_ .    
 ![image](https://user-images.githubusercontent.com/58628111/101842062-ef68a580-3b4f-11eb-9088-53f763fba7f0.png)   ![image](https://user-images.githubusercontent.com/58628111/101842074-f42d5980-3b4f-11eb-8665-ad4f93940270.png)   
-![image](https://user-images.githubusercontent.com/58628111/101842289-643bdf80-3b50-11eb-96da-b7f27fa46be3.png)   ![image](https://user-images.githubusercontent.com/58628111/101842302-6aca5700-3b50-11eb-982d-b0d8a70869cb.png)
-
-
+![image](https://user-images.githubusercontent.com/58628111/101842289-643bdf80-3b50-11eb-96da-b7f27fa46be3.png)   ![image](https://user-images.githubusercontent.com/58628111/101842302-6aca5700-3b50-11eb-982d-b0d8a70869cb.png)   
+![image](https://user-images.githubusercontent.com/58628111/101842515-e0362780-3b50-11eb-8e29-53a7667d173d.png)   ![image](https://user-images.githubusercontent.com/58628111/101842522-e4fadb80-3b50-11eb-8635-70c23da5f517.png)   
+![image](https://user-images.githubusercontent.com/58628111/101842529-e926f900-3b50-11eb-9420-44eeb23bbc26.png)   ![image](https://user-images.githubusercontent.com/58628111/101842537-ee844380-3b50-11eb-8955-f2fcc8b0376f.png)    
+![image](https://user-images.githubusercontent.com/58628111/101842767-6f433f80-3b51-11eb-8c1f-3d91dda48d3e.png)   ![image](https://user-images.githubusercontent.com/58628111/101842774-736f5d00-3b51-11eb-860d-8414e94c0e97.png)   
+![image](https://user-images.githubusercontent.com/58628111/101842780-779b7a80-3b51-11eb-813d-1d5fa21534d3.png)   ![image](https://user-images.githubusercontent.com/58628111/101842786-7b2f0180-3b51-11eb-8f63-9c12c5cc6af4.png)   
+![image](https://user-images.githubusercontent.com/58628111/101842849-969a0c80-3b51-11eb-9313-37e30a339680.png)   ![image](https://user-images.githubusercontent.com/58628111/101842856-9994fd00-3b51-11eb-8611-cf4820eb200e.png)   
+![image](https://user-images.githubusercontent.com/58628111/101842862-9c8fed80-3b51-11eb-9cc4-44525a1fd89c.png)   ![image](https://user-images.githubusercontent.com/58628111/101842865-9ef24780-3b51-11eb-8700-b6e6c41d1a70.png)    
 
 ***Σχετικά με το _458.sjeng_*** : Αποτελεί banchmark που ειδικεύεται πάνω σε παρτίδες σκάκι.Φαίνεται λοιπόν ότι το κυρίαρχο χαρακτηριστικό του είναι η επεξεργασία δεδομένων ώστε να παρθεί η σωστή απόφαση.Γι αυτό το λόγο λειτουργήσαμε παρόμοια με το BZIP benchmark.
 ![Lab2-specsjeng_cpi](https://user-images.githubusercontent.com/58628111/101296393-f29c2280-382b-11eb-9906-ffbb5c9fd0e5.png)  
