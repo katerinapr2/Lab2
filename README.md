@@ -86,10 +86,13 @@ Default : [system.cpu_clk_domain] clock=500
 Με τα παρακάτω διαγράμματα μπορούμε να δούμε πιο συγκεκριμένα την επίδραση κάθε παραμέτρου στο cpi και τα misses του _456.hmmer_ .    
 ![image](https://user-images.githubusercontent.com/58628111/101842062-ef68a580-3b4f-11eb-9088-53f763fba7f0.png)   ![image](https://user-images.githubusercontent.com/58628111/101842074-f42d5980-3b4f-11eb-8665-ad4f93940270.png)   
 ![image](https://user-images.githubusercontent.com/58628111/101842289-643bdf80-3b50-11eb-96da-b7f27fa46be3.png)   ![image](https://user-images.githubusercontent.com/58628111/101842302-6aca5700-3b50-11eb-982d-b0d8a70869cb.png)   
+
 ![image](https://user-images.githubusercontent.com/58628111/101842515-e0362780-3b50-11eb-8e29-53a7667d173d.png)   ![image](https://user-images.githubusercontent.com/58628111/101842522-e4fadb80-3b50-11eb-8635-70c23da5f517.png)   
 ![image](https://user-images.githubusercontent.com/58628111/101842529-e926f900-3b50-11eb-9420-44eeb23bbc26.png)   ![image](https://user-images.githubusercontent.com/58628111/101842537-ee844380-3b50-11eb-8955-f2fcc8b0376f.png)    
-![image](https://user-images.githubusercontent.com/58628111/101842767-6f433f80-3b51-11eb-8c1f-3d91dda48d3e.png)   ![image](https://user-images.githubusercontent.com/58628111/101842774-736f5d00-3b51-11eb-860d-8414e94c0e97.png)   
-![image](https://user-images.githubusercontent.com/58628111/101842780-779b7a80-3b51-11eb-813d-1d5fa21534d3.png)   ![image](https://user-images.githubusercontent.com/58628111/101842786-7b2f0180-3b51-11eb-8f63-9c12c5cc6af4.png)   
+
+![image](https://user-images.githubusercontent.com/58628111/101842932-ccd78c00-3b51-11eb-8fa0-027e881b0e0a.png)   ![image](https://user-images.githubusercontent.com/58628111/101842941-d3660380-3b51-11eb-834c-c2a00d64010f.png)   
+![image](https://user-images.githubusercontent.com/58628111/101842948-d6f98a80-3b51-11eb-8cfa-532797710a22.png)   ![image](https://user-images.githubusercontent.com/58628111/101842954-d9f47b00-3b51-11eb-8693-5274a9c667db.png)   
+
 ![image](https://user-images.githubusercontent.com/58628111/101842849-969a0c80-3b51-11eb-9313-37e30a339680.png)   ![image](https://user-images.githubusercontent.com/58628111/101842856-9994fd00-3b51-11eb-8611-cf4820eb200e.png)   
 ![image](https://user-images.githubusercontent.com/58628111/101842862-9c8fed80-3b51-11eb-9cc4-44525a1fd89c.png)   ![image](https://user-images.githubusercontent.com/58628111/101842865-9ef24780-3b51-11eb-8700-b6e6c41d1a70.png)    
 
