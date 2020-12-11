@@ -79,7 +79,7 @@ Default : [system.cpu_clk_domain] clock=500
 ***Σχετικά με το _456.hmmer_*** : Κυριότερη χρησιμότητα του στο χώρο της βιολογίας και συγκεκριμένα στην ανάλυση του DNA.Αυτό σε συνδυασμό με τα υψηλά miss rate των L1 μνημών μας οδήγησε στην παράλληλη αύξηση των μεγεθών τους με μικρή βελτίωση.Αντίστοιχα σκεφτήκαμε και για την L2 με παρόμοια αποτελέσματα.Τέλος καταλήξαμε στην αύξηση του μεγέθους της cacheline που σε συνδυασμό με τις προηγούμενες αλλαγές επέφερε το μεγαλύτερο όφελος.Ωστόσο παρατηρήσαμε ότι το CPI βελτώνεται μέχρι μια συγκεκριμένη αύξηση μεγέθους cacheline.   
 ![Lab2-spechmmer_cpi](https://user-images.githubusercontent.com/58628111/101347311-8ef91000-3892-11eb-815f-ad04d0145a8e.png)  ![Lab2-spechmmer_dcache](https://user-images.githubusercontent.com/58628111/101347318-90c2d380-3892-11eb-8626-c310a83c827b.png)
 ![Lab2-spechmmer_icache](https://user-images.githubusercontent.com/58628111/101347325-94eef100-3892-11eb-9b22-683971168ed7.png)  ![Lab2-spechmmer_l2](https://user-images.githubusercontent.com/58628111/101347332-96b8b480-3892-11eb-9dfd-20ceb8f30d5e.png)   
-Με τα παρακάτω διαγράμματα μπορούμε να δούμε πιο συγκεκριμένα την επίδραση κάθε παραμέτρου στο cpi και τα misses του _456.hmmer_ .    
+Με τα παρακάτω διαγράμματα μπορούμε να δούμε πιο συγκεκριμένα την επίδραση κάθε παραμέτρου στο cpi και τα misses του _456.hmmer_.    
 ![image](https://user-images.githubusercontent.com/58628111/101842062-ef68a580-3b4f-11eb-9088-53f763fba7f0.png)   ![image](https://user-images.githubusercontent.com/58628111/101842074-f42d5980-3b4f-11eb-8665-ad4f93940270.png)   
 ![image](https://user-images.githubusercontent.com/58628111/101842289-643bdf80-3b50-11eb-96da-b7f27fa46be3.png)   ![image](https://user-images.githubusercontent.com/58628111/101842302-6aca5700-3b50-11eb-982d-b0d8a70869cb.png)   
 
@@ -100,6 +100,13 @@ Default : [system.cpu_clk_domain] clock=500
 
 ![Lab2-speclibm_cpi](https://user-images.githubusercontent.com/58628111/101345248-73403a80-388f-11eb-8fd6-e9bbd6e93ab1.png)  ![Lab2-speclibm_dcache](https://user-images.githubusercontent.com/58628111/101345257-7804ee80-388f-11eb-9be2-228e533e080e.png)  
 ![Lab2-speclibm_icache](https://user-images.githubusercontent.com/58628111/101345268-7a674880-388f-11eb-870e-795aa8b1fe55.png)  ![Lab2-speclibm_l2](https://user-images.githubusercontent.com/58628111/101345293-805d2980-388f-11eb-8a50-6346adaa3a14.png)   
+Με τα παρακάτω διαγράμματα μπορούμε να δούμε πιο συγκεκριμένα την επίδραση κάθε παραμέτρου στο cpi και τα misses του _470.lbm_.  
+![image](https://user-images.githubusercontent.com/58628111/101932770-f5a86180-3be3-11eb-887d-8c79bcf87f3f.png)   ![image](https://user-images.githubusercontent.com/58628111/101932783-f9d47f00-3be3-11eb-8a38-fab280db62ad.png)   
+![image](https://user-images.githubusercontent.com/58628111/101932796-fd680600-3be3-11eb-9c83-d8692ac7f76f.png)   ![image](https://user-images.githubusercontent.com/58628111/101932808-0062f680-3be4-11eb-9ce6-721a78689d36.png)   
+
+![image](https://user-images.githubusercontent.com/58628111/101932901-1ffa1f00-3be4-11eb-83f8-7b5e111b0266.png)   ![image](https://user-images.githubusercontent.com/58628111/101932919-238da600-3be4-11eb-95fc-0bc894a5f306.png)   
+![image](https://user-images.githubusercontent.com/58628111/101932931-27212d00-3be4-11eb-8a1d-99195db39b41.png)   ![image](https://user-images.githubusercontent.com/58628111/101932945-2be5e100-3be4-11eb-9ca2-816f7d751c59.png)   
+
 
 ***Βήμα 3ο***  
 Είναι γεγονός πως η αύξηση του μεγέθους των caches, επιφέρει σημαντικό κόστος στον χρόνο σάρωσης των caches. Παρόλα αυτά παρατηρούμε πως με την αύξηση αυτή έχουμε καλύτερη απόδοση. Σκοπός λοιπόν είναι να βρούμε το σημείο όπου από τη μία, ο χρόνος προσπέλασης δεν αυξάνεται σημαντικά και από την άλλη, οι αστοχίες μειώνονται. Συγκεκριμένα, καθώς ο χρόνος προσπέλασης της L1 είναι πιο κρίσιμος από αυτόν της L2, το κόστος της αύξησης του μεγέθους της είναι μεγαλύτερο.   
