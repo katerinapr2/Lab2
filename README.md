@@ -110,6 +110,10 @@ Default : [system.cpu_clk_domain] clock=500
 ![image](https://user-images.githubusercontent.com/58628111/101936672-846bad00-3be9-11eb-8c20-ac32b58b6cb3.png)   ![image](https://user-images.githubusercontent.com/58628111/101936688-87ff3400-3be9-11eb-8968-92d999cac048.png)   
 ![image](https://user-images.githubusercontent.com/58628111/101936698-8d5c7e80-3be9-11eb-97db-93db301199d4.png)   ![image](https://user-images.githubusercontent.com/58628111/101936707-92213280-3be9-11eb-9da7-a3c3697bb378.png)   
 
+![image](https://user-images.githubusercontent.com/58628111/101944017-b6ced780-3bf4-11eb-8c30-a3a3989ba791.png)   ![image](https://user-images.githubusercontent.com/58628111/101944028-bafaf500-3bf4-11eb-9da4-438726379190.png)   
+![image](https://user-images.githubusercontent.com/58628111/101944047-be8e7c00-3bf4-11eb-9d93-e99d7a1ac98a.png)   ![image](https://user-images.githubusercontent.com/58628111/101944056-c3533000-3bf4-11eb-86c8-3f48ea2a567f.png)   
+
+
 
 
 ***Βήμα 3ο***  
