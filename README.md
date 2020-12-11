@@ -107,6 +107,10 @@ Default : [system.cpu_clk_domain] clock=500
 ![image](https://user-images.githubusercontent.com/58628111/101932901-1ffa1f00-3be4-11eb-83f8-7b5e111b0266.png)   ![image](https://user-images.githubusercontent.com/58628111/101932919-238da600-3be4-11eb-95fc-0bc894a5f306.png)   
 ![image](https://user-images.githubusercontent.com/58628111/101932931-27212d00-3be4-11eb-8a1d-99195db39b41.png)   ![image](https://user-images.githubusercontent.com/58628111/101932945-2be5e100-3be4-11eb-9ca2-816f7d751c59.png)   
 
+![image](https://user-images.githubusercontent.com/58628111/101936672-846bad00-3be9-11eb-8c20-ac32b58b6cb3.png)   ![image](https://user-images.githubusercontent.com/58628111/101936688-87ff3400-3be9-11eb-8968-92d999cac048.png)   
+![image](https://user-images.githubusercontent.com/58628111/101936698-8d5c7e80-3be9-11eb-97db-93db301199d4.png)   ![image](https://user-images.githubusercontent.com/58628111/101936707-92213280-3be9-11eb-9da7-a3c3697bb378.png)   
+
+
 
 ***Βήμα 3ο***  
 Είναι γεγονός πως η αύξηση του μεγέθους των caches, επιφέρει σημαντικό κόστος στον χρόνο σάρωσης των caches. Παρόλα αυτά παρατηρούμε πως με την αύξηση αυτή έχουμε καλύτερη απόδοση. Σκοπός λοιπόν είναι να βρούμε το σημείο όπου από τη μία, ο χρόνος προσπέλασης δεν αυξάνεται σημαντικά και από την άλλη, οι αστοχίες μειώνονται. Συγκεκριμένα, καθώς ο χρόνος προσπέλασης της L1 είναι πιο κρίσιμος από αυτόν της L2, το κόστος της αύξησης του μεγέθους της είναι μεγαλύτερο.   
