@@ -107,6 +107,19 @@ Default : [system.cpu_clk_domain] clock=500
 ***Σχετικά με το _458.sjeng_*** : Αποτελεί banchmark που ειδικεύεται πάνω σε παρτίδες σκάκι.Φαίνεται λοιπόν ότι το κυρίαρχο χαρακτηριστικό του είναι η επεξεργασία δεδομένων ώστε να παρθεί η σωστή απόφαση.Γι αυτό το λόγο λειτουργήσαμε παρόμοια με το BZIP benchmark.   
 ![Lab2-specsjeng_cpi](https://user-images.githubusercontent.com/58628111/101296393-f29c2280-382b-11eb-9906-ffbb5c9fd0e5.png)  ![Lab2-specsjeng_dcache](https://user-images.githubusercontent.com/58628111/101296395-f465e600-382b-11eb-9271-13fe021e720b.png)  
 ![Lab2-specsjeng_icache](https://user-images.githubusercontent.com/58628111/101296397-f62fa980-382b-11eb-8cdd-fb1f50f887d1.png)  ![Lab2-specsjeng_l2](https://user-images.githubusercontent.com/58628111/101296400-f92a9a00-382b-11eb-8e99-6c095ced9c7c.png)  
+Με τα παρακάτω διαγράμματα μπορούμε να δούμε πιο συγκεκριμένα την επίδραση κάθε παραμέτρου στο cpi και τα misses του _470.lbm_.    
+![specsjeng-l1-cpi](https://user-images.githubusercontent.com/58628111/102022495-f0881580-3d8f-11eb-9b67-addf7fd1590a.png) ![specsjeng-l1-dmiss](https://user-images.githubusercontent.com/58628111/102022497-f2ea6f80-3d8f-11eb-9d92-107516afd701.png)   
+![specsjeng-l1-imiss](https://user-images.githubusercontent.com/58628111/102022499-f4b43300-3d8f-11eb-9711-7ffb3838ea85.png) ![specsjeng-l1-l2miss](https://user-images.githubusercontent.com/58628111/102022501-f67df680-3d8f-11eb-98d4-fbca3b14500d.png)   
+
+![specsjeng-l2-cpi](https://user-images.githubusercontent.com/58628111/102022506-04cc1280-3d90-11eb-8732-d5d059aab967.png) ![specsjeng-l2-dmiss](https://user-images.githubusercontent.com/58628111/102022509-072e6c80-3d90-11eb-9d7f-96ac8859b728.png)   
+![specsjeng-l2-imiss](https://user-images.githubusercontent.com/58628111/102022512-0990c680-3d90-11eb-839d-1d13461d188e.png) ![specsjeng-l2-l2miss](https://user-images.githubusercontent.com/58628111/102022513-0a295d00-3d90-11eb-8756-b8400101fa8f.png)   
+
+![specsjeng-assoc-cpi](https://user-images.githubusercontent.com/58628111/102022521-1ad9d300-3d90-11eb-9801-059293936c76.png) ![specsjeng-assoc-dmiss](https://user-images.githubusercontent.com/58628111/102022523-1ca39680-3d90-11eb-8f48-0a26c2197fb0.png)   
+![specsjeng-assoc-imiss](https://user-images.githubusercontent.com/58628111/102022525-1dd4c380-3d90-11eb-9445-7b70cdc7f085.png) ![specsjeng-assoc-l2miss](https://user-images.githubusercontent.com/58628111/102022526-1f05f080-3d90-11eb-8ee5-ded202592014.png)   
+
+![specsjeng-cacheline-cpi](https://user-images.githubusercontent.com/58628111/102022538-2fb66680-3d90-11eb-972c-f27f6212501c.png) ![specsjeng-cacheline-dmiss](https://user-images.githubusercontent.com/58628111/102022540-30e79380-3d90-11eb-9623-b598f6c2fd47.png)   
+![specsjeng-cacheline-imiss](https://user-images.githubusercontent.com/58628111/102022541-32b15700-3d90-11eb-98c6-97973ec22aa3.png) ![specsjeng-cacheline-l2miss](https://user-images.githubusercontent.com/58628111/102022542-347b1a80-3d90-11eb-876c-6c2f18014522.png)    
+
 
 ***Σχετικά με τις δοκιμές στο _470.lbm_*** : Το συγκεκριμένο benchmark υπολογίζει τη ροή ενός ρευστού σε ένα χώρο.Αρχικά αυξήσαμε τα μεγέθη των L1 instruction cache και L1 data cache καθώς είδαμε ότι την πρώτη φορά που έτρεξε το benchmark η L1d είχε σχετικά υψηλό miss rate.Έπειτα αυξήσαμε την L2 και τα associativity όλων με ελάχιστη διαφορά και η πιο σημαντική βελτίωση ήρθε μετά την αύξηση του μεγέθους της cacheline.   
 
