@@ -1,0 +1,8 @@
+Benchmarks	system.cpu.cpi	system.cpu.dcache.overall_miss_rate::total	system.cpu.icache.overall_miss_rate::total	system.l2.overall_miss_rate::total
+libm_l1iassoc_1	3.495153	0.060971	0.000085	0.999982
+libm_l1iassoc_2	3.495573	0.060971	0.000098	0.999927
+libm_l1iassoc_4	3.495153	0.060971	0.000087	0.999972
+libm_l1iassoc_8	3.495153	0.060971	0.000085	0.999980
+libm_l1iassoc_16	3.495153	0.060971	0.000085	0.999982
+libm_l1iassoc_32	3.495153	0.060971	0.000085	0.999983
+libm_l1iassoc_64	3.495153	0.060971	0.000085	0.999983
