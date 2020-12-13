@@ -1,0 +1,7 @@
+Benchmarks	system.cpu.cpi	system.cpu.dcache.overall_miss_rate::total	system.cpu.icache.overall_miss_rate::total	system.l2.overall_miss_rate::total
+hmmer_cacheline_64	9.279204	0.070142	0.113493	0.951938
+hmmer_cacheline_128	7.328793	0.047371	0.086420	0.914607
+hmmer_cacheline_256	6.486966	0.032674	0.069384	0.870482
+hmmer_cacheline_512	6.329479	0.023352	0.062888	0.749117
+hmmer_cacheline_1024	6.802430	0.018097	0.064262	0.590909
+hmmer_cacheline_2048	8.836829	0.015912	0.064605	0.434109
