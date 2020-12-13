@@ -1,0 +1,6 @@
+Benchmarks	system.cpu.cpi	system.cpu.dcache.overall_miss_rate::total	system.cpu.icache.overall_miss_rate::total	system.l2.overall_miss_rate::total
+specsjeng_0	10.276466	0.121831	0.000020	0.999978
+specsjeng_cacheassoc_l1i_1	10.276355	0.121831	0.000019	0.999985
+specsjeng_cacheassoc_l1i_2	10.276148	0.121831	0.000019	0.999984
+specsjeng_cacheassoc_l1i_3	10.276461	0.121831	0.000019	0.999985
+specsjeng_cacheassoc_l1i_4	10.278779	0.121831	0.000021	0.999972
