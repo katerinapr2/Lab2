@@ -1,0 +1,6 @@
+Benchmarks	system.cpu.cpi	system.cpu.dcache.overall_miss_rate::total	system.cpu.icache.overall_miss_rate::total	system.l2.overall_miss_rate::total
+hmmer_l1isize_8	9.420325	0.070199	0.133232	0.853964
+hmmer_l1isize_16	9.330361	0.070180	0.119030	0.921922
+hmmer_l1isize_32	9.279204	0.070142	0.113493	0.951938
+hmmer_l1isize_64	9.279204	0.070142	0.113493	0.951938
+hmmer_l1isize_128	9.254900	0.070142	0.109123	0.977707
