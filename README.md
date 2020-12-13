@@ -80,17 +80,17 @@ Default : [system.cpu_clk_domain] clock=500
 ![Lab2-spechmmer_cpi](https://user-images.githubusercontent.com/58628111/101347311-8ef91000-3892-11eb-815f-ad04d0145a8e.png)  ![Lab2-spechmmer_dcache](https://user-images.githubusercontent.com/58628111/101347318-90c2d380-3892-11eb-8626-c310a83c827b.png)
 ![Lab2-spechmmer_icache](https://user-images.githubusercontent.com/58628111/101347325-94eef100-3892-11eb-9b22-683971168ed7.png)  ![Lab2-spechmmer_l2](https://user-images.githubusercontent.com/58628111/101347332-96b8b480-3892-11eb-9dfd-20ceb8f30d5e.png)   
 Με τα παρακάτω διαγράμματα μπορούμε να δούμε πιο συγκεκριμένα την επίδραση κάθε παραμέτρου στο cpi και τα misses του _456.hmmer_.    
-![image](https://user-images.githubusercontent.com/58628111/101842062-ef68a580-3b4f-11eb-9088-53f763fba7f0.png)   ![image](https://user-images.githubusercontent.com/58628111/101842074-f42d5980-3b4f-11eb-8665-ad4f93940270.png)   
-![image](https://user-images.githubusercontent.com/58628111/101842289-643bdf80-3b50-11eb-96da-b7f27fa46be3.png)   ![image](https://user-images.githubusercontent.com/58628111/101842302-6aca5700-3b50-11eb-982d-b0d8a70869cb.png)   
+![image](https://user-images.githubusercontent.com/58628111/101842062-ef68a580-3b4f-11eb-9088-53f763fba7f0.png) ![image](https://user-images.githubusercontent.com/58628111/101842074-f42d5980-3b4f-11eb-8665-ad4f93940270.png)   
+![image](https://user-images.githubusercontent.com/58628111/101842289-643bdf80-3b50-11eb-96da-b7f27fa46be3.png) ![image](https://user-images.githubusercontent.com/58628111/101842302-6aca5700-3b50-11eb-982d-b0d8a70869cb.png)   
 
-![image](https://user-images.githubusercontent.com/58628111/101842515-e0362780-3b50-11eb-8e29-53a7667d173d.png)   ![image](https://user-images.githubusercontent.com/58628111/101842522-e4fadb80-3b50-11eb-8635-70c23da5f517.png)   
-![image](https://user-images.githubusercontent.com/58628111/101842529-e926f900-3b50-11eb-9420-44eeb23bbc26.png)   ![image](https://user-images.githubusercontent.com/58628111/101842537-ee844380-3b50-11eb-8955-f2fcc8b0376f.png)    
+![image](https://user-images.githubusercontent.com/58628111/101842515-e0362780-3b50-11eb-8e29-53a7667d173d.png) ![image](https://user-images.githubusercontent.com/58628111/101842522-e4fadb80-3b50-11eb-8635-70c23da5f517.png)   
+![image](https://user-images.githubusercontent.com/58628111/101842529-e926f900-3b50-11eb-9420-44eeb23bbc26.png) ![image](https://user-images.githubusercontent.com/58628111/101842537-ee844380-3b50-11eb-8955-f2fcc8b0376f.png)    
 
-![image](https://user-images.githubusercontent.com/58628111/101842932-ccd78c00-3b51-11eb-8fa0-027e881b0e0a.png)   ![image](https://user-images.githubusercontent.com/58628111/101842941-d3660380-3b51-11eb-834c-c2a00d64010f.png)   
-![image](https://user-images.githubusercontent.com/58628111/101842948-d6f98a80-3b51-11eb-8cfa-532797710a22.png)   ![image](https://user-images.githubusercontent.com/58628111/101842954-d9f47b00-3b51-11eb-8693-5274a9c667db.png)   
+![image](https://user-images.githubusercontent.com/58628111/101842932-ccd78c00-3b51-11eb-8fa0-027e881b0e0a.png) ![image](https://user-images.githubusercontent.com/58628111/101842941-d3660380-3b51-11eb-834c-c2a00d64010f.png)   
+![image](https://user-images.githubusercontent.com/58628111/101842948-d6f98a80-3b51-11eb-8cfa-532797710a22.png) ![image](https://user-images.githubusercontent.com/58628111/101842954-d9f47b00-3b51-11eb-8693-5274a9c667db.png)   
 
-![image](https://user-images.githubusercontent.com/58628111/101842849-969a0c80-3b51-11eb-9313-37e30a339680.png)   ![image](https://user-images.githubusercontent.com/58628111/101842856-9994fd00-3b51-11eb-8611-cf4820eb200e.png)   
-![image](https://user-images.githubusercontent.com/58628111/101842862-9c8fed80-3b51-11eb-9cc4-44525a1fd89c.png)   ![image](https://user-images.githubusercontent.com/58628111/101842865-9ef24780-3b51-11eb-8700-b6e6c41d1a70.png)    
+![image](https://user-images.githubusercontent.com/58628111/101842849-969a0c80-3b51-11eb-9313-37e30a339680.png) ![image](https://user-images.githubusercontent.com/58628111/101842856-9994fd00-3b51-11eb-8611-cf4820eb200e.png)   
+![image](https://user-images.githubusercontent.com/58628111/101842862-9c8fed80-3b51-11eb-9cc4-44525a1fd89c.png) ![image](https://user-images.githubusercontent.com/58628111/101842865-9ef24780-3b51-11eb-8700-b6e6c41d1a70.png)    
 
 ***Σχετικά με το _458.sjeng_*** : Αποτελεί banchmark που ειδικεύεται πάνω σε παρτίδες σκάκι.Φαίνεται λοιπόν ότι το κυρίαρχο χαρακτηριστικό του είναι η επεξεργασία δεδομένων ώστε να παρθεί η σωστή απόφαση.Γι αυτό το λόγο λειτουργήσαμε παρόμοια με το BZIP benchmark.   
 ![Lab2-specsjeng_cpi](https://user-images.githubusercontent.com/58628111/101296393-f29c2280-382b-11eb-9906-ffbb5c9fd0e5.png)  ![Lab2-specsjeng_dcache](https://user-images.githubusercontent.com/58628111/101296395-f465e600-382b-11eb-9271-13fe021e720b.png)  
@@ -101,17 +101,17 @@ Default : [system.cpu_clk_domain] clock=500
 ![Lab2-speclibm_cpi](https://user-images.githubusercontent.com/58628111/101345248-73403a80-388f-11eb-8fd6-e9bbd6e93ab1.png)  ![Lab2-speclibm_dcache](https://user-images.githubusercontent.com/58628111/101345257-7804ee80-388f-11eb-9be2-228e533e080e.png)  
 ![Lab2-speclibm_icache](https://user-images.githubusercontent.com/58628111/101345268-7a674880-388f-11eb-870e-795aa8b1fe55.png)  ![Lab2-speclibm_l2](https://user-images.githubusercontent.com/58628111/101345293-805d2980-388f-11eb-8a50-6346adaa3a14.png)   
 Με τα παρακάτω διαγράμματα μπορούμε να δούμε πιο συγκεκριμένα την επίδραση κάθε παραμέτρου στο cpi και τα misses του _470.lbm_.  
-![image](https://user-images.githubusercontent.com/58628111/101932770-f5a86180-3be3-11eb-887d-8c79bcf87f3f.png)   ![image](https://user-images.githubusercontent.com/58628111/101932783-f9d47f00-3be3-11eb-8a38-fab280db62ad.png)   
-![image](https://user-images.githubusercontent.com/58628111/101932796-fd680600-3be3-11eb-9c83-d8692ac7f76f.png)   ![image](https://user-images.githubusercontent.com/58628111/101932808-0062f680-3be4-11eb-9ce6-721a78689d36.png)   
+![image](https://user-images.githubusercontent.com/58628111/101932770-f5a86180-3be3-11eb-887d-8c79bcf87f3f.png) ![image](https://user-images.githubusercontent.com/58628111/101932783-f9d47f00-3be3-11eb-8a38-fab280db62ad.png)   
+![image](https://user-images.githubusercontent.com/58628111/101932796-fd680600-3be3-11eb-9c83-d8692ac7f76f.png) ![image](https://user-images.githubusercontent.com/58628111/101932808-0062f680-3be4-11eb-9ce6-721a78689d36.png)   
 
-![image](https://user-images.githubusercontent.com/58628111/101932901-1ffa1f00-3be4-11eb-83f8-7b5e111b0266.png)   ![image](https://user-images.githubusercontent.com/58628111/101932919-238da600-3be4-11eb-95fc-0bc894a5f306.png)   
-![image](https://user-images.githubusercontent.com/58628111/101932931-27212d00-3be4-11eb-8a1d-99195db39b41.png)   ![image](https://user-images.githubusercontent.com/58628111/101932945-2be5e100-3be4-11eb-9ca2-816f7d751c59.png)   
+![image](https://user-images.githubusercontent.com/58628111/101932901-1ffa1f00-3be4-11eb-83f8-7b5e111b0266.png) ![image](https://user-images.githubusercontent.com/58628111/101932919-238da600-3be4-11eb-95fc-0bc894a5f306.png)   
+![image](https://user-images.githubusercontent.com/58628111/101932931-27212d00-3be4-11eb-8a1d-99195db39b41.png) ![image](https://user-images.githubusercontent.com/58628111/101932945-2be5e100-3be4-11eb-9ca2-816f7d751c59.png)   
 
-![image](https://user-images.githubusercontent.com/58628111/101936672-846bad00-3be9-11eb-8c20-ac32b58b6cb3.png)   ![image](https://user-images.githubusercontent.com/58628111/101936688-87ff3400-3be9-11eb-8968-92d999cac048.png)   
-![image](https://user-images.githubusercontent.com/58628111/101936698-8d5c7e80-3be9-11eb-97db-93db301199d4.png)   ![image](https://user-images.githubusercontent.com/58628111/101936707-92213280-3be9-11eb-9da7-a3c3697bb378.png)   
+![image](https://user-images.githubusercontent.com/58628111/101936672-846bad00-3be9-11eb-8c20-ac32b58b6cb3.png) ![image](https://user-images.githubusercontent.com/58628111/101936688-87ff3400-3be9-11eb-8968-92d999cac048.png)   
+![image](https://user-images.githubusercontent.com/58628111/101936698-8d5c7e80-3be9-11eb-97db-93db301199d4.png) ![image](https://user-images.githubusercontent.com/58628111/101936707-92213280-3be9-11eb-9da7-a3c3697bb378.png)   
 
-![image](https://user-images.githubusercontent.com/58628111/101944017-b6ced780-3bf4-11eb-8c30-a3a3989ba791.png)   ![image](https://user-images.githubusercontent.com/58628111/101944028-bafaf500-3bf4-11eb-9da4-438726379190.png)   
-![image](https://user-images.githubusercontent.com/58628111/101944047-be8e7c00-3bf4-11eb-9d93-e99d7a1ac98a.png)   ![image](https://user-images.githubusercontent.com/58628111/101944056-c3533000-3bf4-11eb-86c8-3f48ea2a567f.png)   
+![image](https://user-images.githubusercontent.com/58628111/101944017-b6ced780-3bf4-11eb-8c30-a3a3989ba791.png) ![image](https://user-images.githubusercontent.com/58628111/101944028-bafaf500-3bf4-11eb-9da4-438726379190.png)   
+![image](https://user-images.githubusercontent.com/58628111/101944047-be8e7c00-3bf4-11eb-9d93-e99d7a1ac98a.png) ![image](https://user-images.githubusercontent.com/58628111/101944056-c3533000-3bf4-11eb-86c8-3f48ea2a567f.png)   
 
 
 
