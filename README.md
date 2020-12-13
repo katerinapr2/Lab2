@@ -70,6 +70,18 @@ Default : [system.cpu_clk_domain] clock=500
 ![bzip(dcache)](https://user-images.githubusercontent.com/58628111/101296303-4fe3a400-382b-11eb-9621-d5ecf16438fb.png)  
 ![bzip(icache)](https://user-images.githubusercontent.com/58628111/101296304-5245fe00-382b-11eb-8566-3af4b4133942.png)  
 ![bzip-l2](https://user-images.githubusercontent.com/58628111/101296305-540fc180-382b-11eb-9eaf-ea6849039fc8.png)  
+Με τα παρακάτω διαγράμματα μπορούμε να δούμε πιο συγκεκριμένα την επίδραση κάθε παραμέτρου στο cpi και τα misses του _470.lbm_.   
+![specbzip-l1size](https://user-images.githubusercontent.com/58628111/102022179-c5042b80-3d8d-11eb-86e1-54fdc6576cd4.png) ![specbzip-l1size-dmiss](https://user-images.githubusercontent.com/58628111/102022193-cdf4fd00-3d8d-11eb-9074-4d2fd47a2648.png)    
+![specbzip-l1siz-imiss](https://user-images.githubusercontent.com/58628111/102022194-d0575700-3d8d-11eb-87f2-321b7eeb5366.png) ![specbzip-l1size-l2miss](https://user-images.githubusercontent.com/58628111/102022196-d2211a80-3d8d-11eb-96c7-da33e00d5c0e.png)   
+
+![specbzip-l2size](https://user-images.githubusercontent.com/58628111/102022204-e9600800-3d8d-11eb-8587-b6f50c56ed55.png) ![specbzip-l2-dmiss](https://user-images.githubusercontent.com/58628111/102022205-ebc26200-3d8d-11eb-9b03-81c4f847fb6d.png)   
+![specbzip-l2-imiss](https://user-images.githubusercontent.com/58628111/102022207-ecf38f00-3d8d-11eb-8682-98bbdbf78115.png) ![specbzip-l2-l2miss](https://user-images.githubusercontent.com/58628111/102022209-ef55e900-3d8d-11eb-93ad-f5fd6905615a.png)   
+
+![specbzip-assoc-cpi](https://user-images.githubusercontent.com/58628111/102022219-0563a980-3d8e-11eb-8205-5ef9f20bc9db.png) ![specbzip-assoc-dmiss](https://user-images.githubusercontent.com/58628111/102022221-072d6d00-3d8e-11eb-8139-f352c57d2d15.png)   
+![specbzip-assoc-imiss](https://user-images.githubusercontent.com/58628111/102022223-08f73080-3d8e-11eb-9a5a-f0a1c44272b2.png) ![specbzip-assoc-l2miss](https://user-images.githubusercontent.com/58628111/102022224-0ac0f400-3d8e-11eb-8b86-65650fe427f7.png)  
+
+![specbzip-cachline-cpi](https://user-images.githubusercontent.com/58628111/102022229-20361e00-3d8e-11eb-8b49-998623ab9bec.png) ![specbzip-cacheline-dmiss](https://user-images.githubusercontent.com/58628111/102022231-22987800-3d8e-11eb-8fe4-0d858f79de22.png)    
+![specbzip-cacheline-imiss](https://user-images.githubusercontent.com/58628111/102022234-24623b80-3d8e-11eb-9440-ed2e4a6e782e.png) ![specbzip-cacheline-l2miss](https://user-images.githubusercontent.com/58628111/102022237-25936880-3d8e-11eb-80b1-b3bace1927ec.png)    
 
 ***Σχετικά με το _429.mcf_*** : Benchmark που εστιάζει σε προβλήματα προγραμματισμού (scheduling).Θεωρήσαμε ότι επωφελείται από αύξηση μεγέθους της L2, ωστόσο χωρίς ιδιαίτερο αποτέλεσμα.  
 ![Lab2-specmcf_cpi](https://user-images.githubusercontent.com/58628111/101356573-f0c07680-38a0-11eb-8787-6ae4dd8b7d95.png)  ![Lab2-specmcf_dcache](https://user-images.githubusercontent.com/58628111/101356581-f4ec9400-38a0-11eb-9742-906c4afa5da7.png)  
