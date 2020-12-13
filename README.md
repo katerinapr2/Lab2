@@ -70,7 +70,7 @@ Default : [system.cpu_clk_domain] clock=500
 ![bzip(dcache)](https://user-images.githubusercontent.com/58628111/101296303-4fe3a400-382b-11eb-9621-d5ecf16438fb.png)  
 ![bzip(icache)](https://user-images.githubusercontent.com/58628111/101296304-5245fe00-382b-11eb-8566-3af4b4133942.png)  
 ![bzip-l2](https://user-images.githubusercontent.com/58628111/101296305-540fc180-382b-11eb-9eaf-ea6849039fc8.png)  
-Με τα παρακάτω διαγράμματα μπορούμε να δούμε πιο συγκεκριμένα την επίδραση κάθε παραμέτρου στο cpi και τα misses του _470.lbm_.   
+Με τα παρακάτω διαγράμματα μπορούμε να δούμε πιο συγκεκριμένα την επίδραση κάθε παραμέτρου στο cpi και τα misses του _401.bzip2_.   
 ![specbzip-l1size](https://user-images.githubusercontent.com/58628111/102022179-c5042b80-3d8d-11eb-86e1-54fdc6576cd4.png) ![specbzip-l1size-dmiss](https://user-images.githubusercontent.com/58628111/102022193-cdf4fd00-3d8d-11eb-9074-4d2fd47a2648.png)    
 ![specbzip-l1siz-imiss](https://user-images.githubusercontent.com/58628111/102022194-d0575700-3d8d-11eb-87f2-321b7eeb5366.png) ![specbzip-l1size-l2miss](https://user-images.githubusercontent.com/58628111/102022196-d2211a80-3d8d-11eb-96c7-da33e00d5c0e.png)   
 
@@ -107,7 +107,7 @@ Default : [system.cpu_clk_domain] clock=500
 ***Σχετικά με το _458.sjeng_*** : Αποτελεί banchmark που ειδικεύεται πάνω σε παρτίδες σκάκι.Φαίνεται λοιπόν ότι το κυρίαρχο χαρακτηριστικό του είναι η επεξεργασία δεδομένων ώστε να παρθεί η σωστή απόφαση.Γι αυτό το λόγο λειτουργήσαμε παρόμοια με το BZIP benchmark.   
 ![Lab2-specsjeng_cpi](https://user-images.githubusercontent.com/58628111/101296393-f29c2280-382b-11eb-9906-ffbb5c9fd0e5.png)  ![Lab2-specsjeng_dcache](https://user-images.githubusercontent.com/58628111/101296395-f465e600-382b-11eb-9271-13fe021e720b.png)  
 ![Lab2-specsjeng_icache](https://user-images.githubusercontent.com/58628111/101296397-f62fa980-382b-11eb-8cdd-fb1f50f887d1.png)  ![Lab2-specsjeng_l2](https://user-images.githubusercontent.com/58628111/101296400-f92a9a00-382b-11eb-8e99-6c095ced9c7c.png)  
-Με τα παρακάτω διαγράμματα μπορούμε να δούμε πιο συγκεκριμένα την επίδραση κάθε παραμέτρου στο cpi και τα misses του _470.lbm_.    
+Με τα παρακάτω διαγράμματα μπορούμε να δούμε πιο συγκεκριμένα την επίδραση κάθε παραμέτρου στο cpi και τα misses του _458.sjeng_.    
 ![specsjeng-l1-cpi](https://user-images.githubusercontent.com/58628111/102022495-f0881580-3d8f-11eb-9b67-addf7fd1590a.png) ![specsjeng-l1-dmiss](https://user-images.githubusercontent.com/58628111/102022497-f2ea6f80-3d8f-11eb-9d92-107516afd701.png)   
 ![specsjeng-l1-imiss](https://user-images.githubusercontent.com/58628111/102022499-f4b43300-3d8f-11eb-9711-7ffb3838ea85.png) ![specsjeng-l1-l2miss](https://user-images.githubusercontent.com/58628111/102022501-f67df680-3d8f-11eb-98d4-fbca3b14500d.png)   
 
