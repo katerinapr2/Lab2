@@ -1,0 +1,7 @@
+Benchmarks	system.cpu.cpi	system.cpu.dcache.overall_miss_rate::total	system.cpu.icache.overall_miss_rate::total	system.l2.overall_miss_rate::total
+libm_cacheline_64	3.495573	0.060971	0.000098	0.999927
+libm_cacheline_128	2.581573	0.030487	0.000121	0.999829
+libm_cacheline_256	1.996186	0.015244	0.000115	0.999611
+libm_cacheline_512	1.703960	0.007623	0.000134	0.998959
+libm_cacheline_1024	1.542408	0.003812	0.000147	0.997077
+libm_cacheline_2048	1.497339	0.001907	0.000249	0.991150
