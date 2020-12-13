@@ -1,0 +1,4 @@
+Benchmarks	system.cpu.cpi	system.cpu.dcache.overall_miss_rate::total	system.cpu.icache.overall_miss_rate::total	system.l2.overall_miss_rate::total
+spebzip_cachesize_i_1	1.673566	0.014312	0.000080	0.295284
+spebzip_cachesize_i_2	1.673294	0.014312	0.000068	0.295236
+spebzip_cachesize_i_3	1.673398	0.014312	0.000066	0.295242
